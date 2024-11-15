@@ -44,8 +44,8 @@ beacons.php
 transmit.php
 showbar.php
 starthfp.php
-htaccess
-htpasswd
+.htaccess
+.htpasswd
 
 8. Start web-server
 httpd -k start
