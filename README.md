@@ -7,7 +7,7 @@ This is WEB-SITE for HFpagerNG
 5. Correct Apache config
 6. Put files into htdocs
 7. Start web-server
-8. Htaccess login/pass
+8. Htaccess config
 
 
 1. Install termux https://f-droid.org/ru/packages/com.termux/
@@ -32,7 +32,7 @@ pkg install php-apache
 
 
 5. Correct httpd.conf:
-AllowOverride All
+AllowOverride All #For use .htaccess
 LoadModule php_module libexec/apache2/libphp.so
 AddHandler application/x-httpd-php .php
 LoadModule mpm_prefork_module libexec/apache2/mod_mpm_prefork.so
@@ -48,6 +48,6 @@ starthfp.php
 7. Start web-server
 httpd -k start
 
-8. Htaccess
+8. Change htaccess.txt to .htaccess and htpasswd.txt to .htpasswd for use Htaccess-Authorization
 login: hfpager
 pass: hfpager
