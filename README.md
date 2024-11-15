@@ -44,10 +44,12 @@ beacons.php
 transmit.php
 showbar.php
 starthfp.php
+htaccess
+htpasswd
 
-7. Start web-server
+8. Start web-server
 httpd -k start
 
-8. Change htaccess.txt to .htaccess and htpasswd.txt to .htpasswd for use Htaccess-Authorization
+9. Change htaccess.txt to .htaccess and htpasswd.txt to .htpasswd for use Htaccess-Authorization
 login: hfpager
 pass: hfpager
