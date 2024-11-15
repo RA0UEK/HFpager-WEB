@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authorization"
+AuthUserFile /data/data/com.termux/files/usr/share/apache2/default-site/htdocs/.htpasswd
+Require valid-user
